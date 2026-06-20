@@ -1,6 +1,7 @@
+import "@tanstack/react-start/server-only";
 import { z } from "zod";
 
-import { env } from "@/config/env.server";
+import { env } from "@/config/env";
 
 export const dbConfigValidator = z.object({
   SQLITE_FILE_PATH:

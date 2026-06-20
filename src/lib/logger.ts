@@ -1,7 +1,8 @@
+import "@tanstack/react-start/server-only";
 import { type TransportSingleOptions, type LoggerOptions, pino } from "pino";
 
-import { loggerConfig } from "@/config/logger.server";
-import { env } from "@/config/env.server";
+import { loggerConfig } from "@/config/logger";
+import { env } from "@/config/env";
 
 const fileTransport: TransportSingleOptions = {
   target: "pino/file",

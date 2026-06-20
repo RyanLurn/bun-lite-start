@@ -1,8 +1,10 @@
+import "@tanstack/react-start/server-only";
+
 import type { Level } from "pino";
 
 import { z } from "zod";
 
-import { env } from "@/config/env.server";
+import { env } from "@/config/env";
 
 export const logLevels: Level[] = [
   "fatal",

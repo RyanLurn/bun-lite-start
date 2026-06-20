@@ -1,3 +1,4 @@
+import "@tanstack/react-start/server-only";
 import { integer } from "drizzle-orm/sqlite-core";
 import { sql } from "drizzle-orm";
 
