@@ -1,3 +1,4 @@
+import "@tanstack/react-start/server-only";
 import { sqliteTable, integer, index, text } from "drizzle-orm/sqlite-core";
 
 import { timestamps } from "@/db/helpers/timestamps";
